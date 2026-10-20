@@ -1,2 +1,2 @@
 # server-stats
-https://github.com/ManiDevOPs966/server-stats
+https://roadmap.sh/projects/server-stats
