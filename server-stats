@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "==================== Server Performance Stats ============>
+
+# CPU Usage
+echo ""
+echo ">> CPU Usage:"
+top -bn1 | grep "Cpu(s)" | awk '{print "Total CPU Usage: " 100 ->
+
+# Memory Usage
+echo ""
+echo ">> Memory Usage:"
+free -h | awk '/Mem:/ {
+    used=$3; free=$4; total=$2;
+    perc=($3/$2)*100;
+    printf("Total: %s | Used: %s | Free: %s | Used Percentage: %>
+}'
